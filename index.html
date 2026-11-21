@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Quản lý Doanh thu Team</title>
+<meta name="theme-color" content="#183a37">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Doanh thu Team">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<style>
+  html, body { margin: 0; height: 100%; background: #f4f5f7; overflow: hidden; }
+  iframe { position: fixed; inset: 0; width: 100%; height: 100%; height: 100dvh; border: 0; display: block; }
+  #wait { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center;
+          font: 15px -apple-system, "Segoe UI", Roboto, Arial, sans-serif; color: #687085; }
+</style>
+</head>
+<body>
+<div id="wait">Đang mở ứng dụng…</div>
+<iframe id="app" title="Quản lý Doanh thu Team"
+  src="https://script.google.com/macros/s/AKfycbzxy_6LZNYbErA7sgvV7fYu-886Kj7tPCbyPKRMWsKJyw-lMSa156H6YWOjc_FZklDXKw/exec"
+  allow="camera; clipboard-write"
+  onload="document.getElementById('wait').style.display='none'"></iframe>
+</body>
+</html>
